@@ -18,7 +18,7 @@ analyze:
 		--outdir ${OUTPUT_JSON_DIR}
 
 stack-plot:
-	git-of-theseus-stack-plot --outfile=${OUTPUT_IMG_DIR}/stack-plot-cohorts.png ${OUTPUT_JSON_DIR}/cohorts.json
-	git-of-theseus-stack-plot --outfile=${OUTPUT_IMG_DIR}/stack-plot-authors.png ${OUTPUT_JSON_DIR}/authors.json
-	git-of-theseus-stack-plot --outfile=${OUTPUT_IMG_DIR}/stack-plot-dirs.png ${OUTPUT_JSON_DIR}/dirs.json
-	git-of-theseus-stack-plot --outfile=${OUTPUT_IMG_DIR}/stack-plot-exts.png ${OUTPUT_JSON_DIR}/exts.json
+	git-of-theseus-stack-plot ${OUTPUT_JSON_DIR}/cohorts.json --outfile=${OUTPUT_IMG_DIR}/stack-plot-cohorts.png
+	git-of-theseus-stack-plot ${OUTPUT_JSON_DIR}/authors.json --outfile=${OUTPUT_IMG_DIR}/stack-plot-authors.png
+	git-of-theseus-stack-plot ${OUTPUT_JSON_DIR}/dirs.json --outfile=${OUTPUT_IMG_DIR}/stack-plot-dirs.png
+	git-of-theseus-stack-plot ${OUTPUT_JSON_DIR}/exts.json --outfile=${OUTPUT_IMG_DIR}/stack-plot-exts.png
