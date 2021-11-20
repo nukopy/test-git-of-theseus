@@ -6,9 +6,6 @@ OUTPUT_DIR := output/$(REPOSITORY_ID)
 OUTPUT_JSON_DIR := $(OUTPUT_DIR)/json
 OUTPUT_IMG_DIR := $(OUTPUT_DIR)/img
 
-install:
-	pip install git-of-theseus
-
 analyze:
 	mkdir -p ${OUTPUT_JSON_DIR} ${OUTPUT_IMG_DIR}
 	git-of-theseus-analyze ${ANALYZE_TARGET_REPOSITORY} \
