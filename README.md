@@ -60,16 +60,16 @@ Results of analysis is here:
 
 - Stack plot of lines of code by authors
 
-![Stack plot of lines of code by authors](./output/atcoder-stream/img/stack-plot-authors.png)
+![Stack plot of lines of code by authors](./output/atcoder-problems/img/stack-plot-authors.png)
 
 - Stack plot of lines of code by years
 
-![Stack plot of lines of code by years](./output/atcoder-stream/img/stack-plot-cohorts.png)
+![Stack plot of lines of code by years](./output/atcoder-problems/img/stack-plot-cohorts.png)
 
 - Stack plot of lines of code by directories
 
-![Stack plot of lines of code by directories](./output/atcoder-stream/img/stack-plot-dirs.png)
+![Stack plot of lines of code by directories](./output/atcoder-problems/img/stack-plot-dirs.png)
 
 - Stack plot of lines of code by file extensions
 
-![Stack plot of lines of code by file extensions](./output/atcoder-stream/img/stack-plot-exts.png)
+![Stack plot of lines of code by file extensions](./output/atcoder-problems/img/stack-plot-exts.png)
