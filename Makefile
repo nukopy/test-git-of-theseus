@@ -1,13 +1,11 @@
 include .env
 
-# for output
 ANALYZE_TARGET_REPOSITORY := $(PATH_TO_REPOSITORY)
 ANALYSIS_TARGET_BRANCH := $(ANALYSIS_TARGET_BRANCH)
 OUTPUT_DIR := output/$(REPOSITORY_ID)
 OUTPUT_JSON_DIR := $(OUTPUT_DIR)/json
 OUTPUT_IMG_DIR := $(OUTPUT_DIR)/img
 
-# before analyze
 install:
 	pip install git-of-theseus
 
