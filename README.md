@@ -24,7 +24,7 @@ pip install git-of-theseus
    - `PATH_TO_REPOSITORY`: path to a cloned repository
    - `ANALYSIS_TARGET_BRANCH`: branch name of target of analysis by `git-of-theseus`
    - `REPOSITORY_ID`: an arbitrary string used to output directory name
-3. Execute following commands:
+3. Execute analysis by following commands:
    ```sh
    make analyze
    make stack-plot
@@ -39,20 +39,19 @@ In this example, [kenkoooo/AtCoderProblems](https://github.com/kenkoooo/AtCoderP
 git clone git@github.com:nukopy/test-git-of-theseus.git
 cd test-git-of-theseus
 
-# Clone example repository
-# any repository you want to analyze!
+# 1. Clone example repository (any repository you want to analyze)
 cd repositories
 git clone git@github.com:kenkoooo/AtCoderProblems.git # example repository
 cd ../
 
-# Set environment variables in .env
+# 2. Set environment variables in .env
 vi .env
 # --- in .env ---
 # PATH_TO_REPOSITORY = repositories/AtCoderProblems
 # ANALYSIS_TARGET_BRANCH = master
 # REPOSITORY_ID = atcoder-stream
 
-# Execute
+# 3. Execute analysis
 make analyze
 make stack-plot
 ```
