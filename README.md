@@ -1,6 +1,6 @@
 # Test git-of-theseus
 
-Test of [git-of-theseus](https://github.com/erikbern/git-of-theseus), a tool for analyze Git repositories.
+Test of [git-of-theseus](https://github.com/erikbern/git-of-theseus), a tool to analyze Git repositories.
 
 ## Prerequisites
 
