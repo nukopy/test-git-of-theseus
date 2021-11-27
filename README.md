@@ -2,7 +2,7 @@
 
 Test of [git-of-theseus](https://github.com/erikbern/git-of-theseus), a tool to analyze Git repositories.
 
-## Prerequisites
+## Prequisites
 
 - Python 2.7.12 >
   - follow the [`Dockerfile` in `git-of-theseus`](https://github.com/erikbern/git-of-theseus/blob/master/Dockerfile)
